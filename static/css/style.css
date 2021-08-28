@@ -1,0 +1,25 @@
+.view {
+    background: url("https://api.72.rs/images/api.php")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #e040fb;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #e040fb;
+    }
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
